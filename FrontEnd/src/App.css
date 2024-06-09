@@ -1,0 +1,83 @@
+@import 'animate.css';
+@import 'react-datepicker/dist/react-datepicker.css';
+
+@font-face {
+    font-family: 'NatashawalkerRegular-lgede.otf';
+    src: url('./Assets/fonts/NatashawalkerBold-vmevO.otf') format('opentype'); /* Adjust the file path and format accordingly */
+  }
+  :root
+{
+    --main-color:#FFFCF7;
+    --branch-color:#E36824;
+    --shadow:#363636;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+    --button-color:#5B7C75;
+   
+  
+}
+.home 
+{
+    background-image: url(./Assets/images/pexels-sinileunen-5870352.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important; 
+    height:100vh;
+}
+
+.layer
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-layer {
+  background-color: rgba(0, 0, 0, 0.697);
+}
+
+ .home h1:hover , a:hover {
+  color:var(--branch-color) !important ;
+  text-decoration: none !important;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: 'NatashawalkerRegular-lgede.otf' !important;
+  }
+.shade3{
+    color: #363636;
+}
+.shade1{
+    background-color: #FFFCF7;
+}
+.shade2{
+    background-color: #FDEED9;
+}
+.primary{
+    color: #E36824;
+}
+.head{
+  color: #17c772;
+}
+.primary2{
+    background-color: #E36824 !important;
+}
+.secondary{
+    background-color: #5B7C75;
+}
+.secondary2{
+  color: #5B7C75;
+}
+.stroke{
+    background-color: #ECECEC;
+}
+
+.shadowBg{
+    background-color: #dfdfdf;
+}
+.shadowBg1{
+  background-color: #f0eded;
+}
+.ingredients{
+border: 4px dashed #363636;
+}
